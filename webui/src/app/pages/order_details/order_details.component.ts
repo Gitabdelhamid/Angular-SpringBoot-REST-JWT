@@ -17,6 +17,7 @@ export class OrderDetailsComponent implements OnInit {
     public isOrderOnHold:boolean = false;
 
     public rows=[];
+    //..public rows=[];
     public columns =[
         {prop:"productName" , name: "Product"    , width:200 },
         {prop:"productCode" , name: "Code"       , width:70  },
